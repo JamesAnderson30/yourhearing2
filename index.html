@@ -1,0 +1,144 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heard on Ear - Elderly Hearing Care</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        nav {
+            background-color: #f5f5f5;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            background-color: white;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        .big heading {
+            color: #1a73e8;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            color: #2c3e50;
+            margin-bottom: 25px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-info {
+            margin-top: 25px;
+            font-size: 16px;
+            color: #666;
+            text-align: center;
+        }
+        .image-container {
+            margin: 30px 0;
+        }
+        .testimonial-image {
+            max-width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="big heading">Heard on Ear</h2>
+            <p>Compassionate Elderly Hearing Care Provider</p>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="home" class="section">
+            <h2 class="section-title big heading">Welcome to Elderly Hearing Care</h2>
+            <p>At Heard on Ear, we specialize in hearing care for elderly clients who need assistance with their hearing. Our experienced professionals provide personalized services to help you regain confidence and
+independence through better communication.</p>
+
+            <!-- Image of happy customer -->
+            <div class="image-container">
+                <img src="https://via.placeholder.com/300x450" alt="Elderly person listening to music" class="testimonial-image">
+                <h3>Customer Testimonial</h3>
+                <p>"Heard on Ear has been helping me communicate with my family for years. Their services are top-notch!"</p>
+            </div>
+
+            <!-- Services button -->
+            <a href="#services" style="color: #1a73e8; text-decoration: none;">View Our Services</a>
+        </section>
+
+        <section id="services" class="section">
+            <h2 class="section-title">Our Services</h2>
+            <div class="container">
+                <ul>
+                    <li><a href="#test" style="color: #1a73e8; text-decoration: none;">Hearing Tests</a></li>
+                    <li><a href="#fitting" style="color: #1a73e8; text-decoration: none;">Fittings</a></li>
+                    <li><a href="#support" style="color: #1a73e8; text-decoration: none;">Ongoing Support</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Company Background Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Us</h2>
+            <p>Founded in 2010, Heard on Ear has grown to be a trusted name in elderly hearing care. Our dedicated team of professionals is committed to providing compassionate and effective solutions for improving
+communication quality.</p>
+
+            <!-- Testimonial image -->
+            <div class="image-container">
+                <img src="https://via.placeholder.com/300x450" alt=" Elderly person with hearing aid" style="max-width: 200px;">
+                <h3>Customer Success Story</h3>
+                <p>"Our hearing aids transformed our lives. The service was exceptional!"</p>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Us</h2>
+            <form action="index" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5"></textarea>
+                <button type="submit" style="background-color: #1a73e8; color: white; border: none; padding: 10px 20px;">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Heard on Ear. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
